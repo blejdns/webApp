@@ -33,7 +33,8 @@ CORS_ORIGIN_ALLOW_ALL = True
 
 INSTALLED_APPS = [
     'rest_framework',
-    'api',
+    'users.apps.UsersConfig',
+    'products.apps.ProductsConfig',
     'corsheaders',
     'django_filters',
     'django.contrib.admin',
